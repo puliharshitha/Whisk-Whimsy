@@ -1,4 +1,6 @@
 // Check if recipes are already stored in localStorage
+const savedRecipes = JSON.parse(localStorage.getItem("recipes")) || [];
+
 
 // Render recipes from localStorage
 function renderRecipes() {
