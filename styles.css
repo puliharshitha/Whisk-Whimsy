@@ -1,0 +1,182 @@
+\* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Kameron';
+    background-color: #A6CDC6;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  
+  
+  header {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+  }
+
+  
+  h1 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+    
+  
+  p {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-family:  'Kameron';
+    letter-spacing: .5px;
+    background-color: #16404D;
+    padding: 30px;
+    border-radius: 50px;
+    color: #fff;
+  
+  }
+  .responsive-img {
+    width: 1000px; 
+    height: auto;
+    transition: transform 0.3s ease;
+    margin: 10px;
+    border-radius: 30px;
+    align-items: center;
+    
+  }
+  
+  #searchSection {
+    margin-top: 30px;
+  }
+  
+  #search {
+    padding: 10px;
+    width: 50%;
+    font-size: .7rem;
+    border: 4px solid #222; /* Pixel-style border */
+    border-radius: 8px;
+    background-color: #fff;
+    font-family:  'Kameron';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    width: 900px;
+    margin: 10px;
+    padding: 15px;
+    border: 4px solid #222; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    font-family:  'Kameron';
+    font-size: 1rem;
+    letter-spacing: .7px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-family:  'Kameron';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #fffefe;
+    line-height: 1.4;
+  }
+  
+  #addRecipeSection {
+    margin-top: 40px;
+  }
+  
+  #addRecipeForm input, #addRecipeForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    border: 4px solid #222;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family:  'Kameron';
+  }
+  
+  #addRecipeForm button {
+    padding: 10px 20px;
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 1.1rem;
+    border: 4px solid #222; 
+    border-radius: 8px;
+    cursor: pointer;
+    font-family:  'Kameron';
+  }
+  
+  #addRecipeForm button:hover {
+    background-color: #444;
+  }
+  
+  #addRecipeForm button:active {
+    background-color: #555;
+  }
+  
+  button, input, textarea {
+    font-family:  'Kameron';
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: 4px solid #333; 
+  }
+  
+  #addRecipeForm input[type="file"] {
+    font-size: 0.8rem;
+    text-transform: none;
+  }
+  
+  input[type="text"], textarea {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: #fff;
+  }
+  
+  input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    #search {
+      width: 80%;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  

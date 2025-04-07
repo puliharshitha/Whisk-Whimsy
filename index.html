@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whim & Whiskey</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Kameron" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Whim & Whiskey</h1>
+  </header>
+<div class="image-container">
+    <h3> How things goes on  here !</h3>
+    <p id = "p_box">Welcome to Whisk & Whimsy, your go-to hub for quick, easy, and delicious recipes! We believe that great food doesn’t have to be complicated. With just 3 to 5 ingredients, you can create mouthwatering meals without spending hours in the kitchen or breaking the bank.Whether you’re a beginner, a busy professional, or just someone who loves simple yet flavorful dishes, our recipes are designed to make cooking stress-free and enjoyable. From hearty breakfasts and wholesome dinners to delightful snacks and desserts, every recipe is crafted to bring out maximum taste with minimal effort.
+
+        No fancy techniques, no overwhelming ingredient lists—just straightforward, fun cooking that anyone can master!
+
+        So grab your ingredients, fire up the stove, and let’s turn simplicity into something extraordinary. 🍽️🔥
+        
+        Less ingredients, more flavor—let’s cook smarter, not harder!</p>
+
+        <img src="image copy.png" alt="Sample Image" class="responsive-img">
+
+        
+
+</div>
+
+
+ 
+  <section id="searchSection">
+    <input type="text" id="search" placeholder="Search for ingredients..." />
+  </section>
+
+  <section id="recipeList">
+    <!-- Recipe cards will be injected here -->
+  </section>
+
+  <section id="addRecipeSection">
+    <h2>Add a New Recipe</h2>
+    <form id="addRecipeForm">
+      <input type="text" id="dishName" placeholder="Dish Name" required />
+      <input type="text" id="ingredients" placeholder="Ingredients (comma-separated)" required />
+      <input type="file" id="recipeImage" accept="image/*" required />
+      <textarea id="steps" placeholder="Steps" required></textarea>
+      <button type="submit">Add Recipe</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
